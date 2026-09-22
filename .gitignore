@@ -1,0 +1,15 @@
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local artifacts
+.cache/
+traces/
+eval-results.json
+*.gif
+!docs/demo.gif

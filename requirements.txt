@@ -1,0 +1,5 @@
+# The application uses only the Python standard library (3.11+).
+# No third-party packages are required.
+
+# Optional, only to regenerate the README demo GIF via scripts/make_gif.py:
+# pillow>=10.0
