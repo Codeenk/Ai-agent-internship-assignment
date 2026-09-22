@@ -104,9 +104,9 @@ def collect_turns() -> list[tuple[str, str, str, str]]:
     ask("Where is ORD-1007 and when should it arrive?",
         "tool: order_lookup(\"ORD-1007\") — sanitized result only",
         "2 · Order lookup tool")
-    ask("And what's the status of ORD-1014?",
+    ask("And what's the status of ORD-1004?",
         "cancelled order: stale ETA suppressed")
-    ask("Check ORD-12X9 for me please",
+    ask("Track order status for 'ORD_@@!!' please",
         "malformed ID → safe refusal")
     ask("Where is my order?",
         "missing ID → concise clarifying question")
